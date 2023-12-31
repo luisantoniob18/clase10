@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+header{
+    background-color: rgb(255, 0, 183);
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    grid-gap: 20px;
+}
+
+.logo{
+    width: 100px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    grid-gap: 20px;
+    align-items: center;
+   }
+
+.menu_item a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.encabezado{
+    background-color: deeppink;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.inicio{
+    text-decoration: underline double;
+}
+
+.portada{
+    height: 70vh;
+    background-image: url("../img/paisaje.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 200px;
+}
+
+.portada h2{
+    color: white;
+    background-color: brown;
+    padding-inline: 15px;
+}
+
+.portada p{
+    color: white;
+    text-align: center;
+}
+
+.tarjetitas{
+    display: flex;
+    padding: 60px;
+    gap:30px
+}
+
+.tarjetita{
+    background-color: rgb(255, 0, 183);
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-inline: 10px;
+    flex: 1;
+}
+
+.informacion{
+    padding-inline: 20px;
+    padding-bottom: 20px;
+   }
+
+   .tarjetita_imagen{
+    max-width: 100%;
+}
+
+.pie{
+    background-color: rgb(255, 0, 183);
+    padding-block: 20px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tarjetita2{
+    flex: 1.5;
+}
+
